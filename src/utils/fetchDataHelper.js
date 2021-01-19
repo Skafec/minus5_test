@@ -5,7 +5,6 @@ export const fetchDataHelper = (apiURL, setData, setLoading) => {
         if (response) {
             setData(data);
             setLoading(false);
-            console.log(data)
         };
     };
     fetchData();

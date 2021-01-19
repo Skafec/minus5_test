@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { fetchDataHelper } from "../utils/fetchDataHelper";
+import { Link } from "react-router-dom";
+
 
 function TeamDetails(props) {
   const [data, setData] = useState(null);
@@ -16,6 +18,9 @@ function TeamDetails(props) {
 
   return (
     <div className="team-details">
+      <Link to="/">
+        {"<"}Back
+      </Link>
       <h1>Team details</h1>
     </div>
   );
