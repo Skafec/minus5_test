@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import SingleTeam from "./SingleTeam";
 import { fetchDataHelper } from "../utils/fetchDataHelper";
+import "./TeamList.scss";
 
 function TeamList() {
   const [data, setData] = useState(null);
@@ -20,7 +21,7 @@ function TeamList() {
         <h1>Loading...</h1>
       ) : (
         <div className="team-list">
-          <h1>Team list component</h1>
+          <h1 className="list__title">NHL teams</h1>
           {data.teams.map((team, index) => {
             return <SingleTeam key={index} singleTeamData={team} />;
           })}

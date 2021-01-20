@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { fetchDataHelper } from "../utils/fetchDataHelper";
 import { Link } from "react-router-dom";
+import "./TeamDetails.scss";
 
 
 function TeamDetails(props) {

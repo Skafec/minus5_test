@@ -1,0 +1,14 @@
+.team-list {
+    background-color: #A1D6E2;
+    padding: 20px;
+    .list {
+        &__title {
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin: 0;
+            padding: 0 0 20px 40px;
+            border-bottom: 1px solid #BCBABE;
+            color: #F1F1F2;
+        }
+    }
+}

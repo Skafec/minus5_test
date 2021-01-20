@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import TeamList from './components/TeamList';
 import TeamDetails from './components/TeamDetails';
