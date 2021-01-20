@@ -24,7 +24,7 @@ function TeamDetails(props) {
       setData,
       setLoading
     );
-  }, []);
+  }, [teamID]);
 
   return (
     <React.Fragment>
