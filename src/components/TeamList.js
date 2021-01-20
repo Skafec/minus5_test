@@ -18,7 +18,7 @@ function TeamList() {
   return (
     <React.Fragment>
       {loading ? (
-        <h1>Loading...</h1>
+        <h1 className="app-loading">Loading...</h1>
       ) : (
         <div className="team-list">
           <h1 className="list__title">NHL teams</h1>

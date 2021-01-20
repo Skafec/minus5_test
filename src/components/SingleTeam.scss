@@ -1,22 +1,22 @@
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .single-team {
-    padding: 20px 0 15px 20px;
-    border-bottom: 1px solid #BCBABE;
-    .item {
-        &__title,
-        &__location {
-            color: #F1F1F2;
-            margin: 0;
-        }
-        &__title {
-            padding-bottom: 6px;
-            font-size: 18px;
-        }
-        &__location {
-            font-size: 14px;
-        }
+  padding: 20px 0 15px 20px;
+  border-bottom: 1px solid #bcbabe;
+  .item {
+    &__title,
+    &__location {
+      color: #f1f1f2;
+      margin: 0;
     }
+    &__title {
+      padding-bottom: 6px;
+      font-size: 18px;
+    }
+    &__location {
+      font-size: 14px;
+    }
+  }
 }
