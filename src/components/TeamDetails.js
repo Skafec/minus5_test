@@ -42,6 +42,7 @@ function TeamDetails(props) {
           <p className="details__location">{teamLocation}</p>
           <div className="details__stats">
             <div className="stats__left">
+              <h3 className="stats__title">Single Season Stats</h3>
               {Object.keys(singleSeasonStats).map((res, index) => {
                 return (
                   <p
@@ -52,7 +53,9 @@ function TeamDetails(props) {
               })}
             </div>
             <div className="stats__right">
+              <h3 className="stats__title">Regular Season Stats</h3>
               {Object.keys(regularSeasonStats).map((res, index) => {
+                console.log(regularSeasonData);
                 return (
                   <p
                     className="stats__single-stat"
